@@ -13,6 +13,7 @@ class ListsController < ApplicationController
   end
 
   def index
+    @
   end
 
   def show
@@ -22,7 +23,7 @@ class ListsController < ApplicationController
   end
 
   private
-  #ストロングパラメータ
+  #　ストロングパラメータ
   def list_params
     params.require(:list).permit(:title, :body)
   end
